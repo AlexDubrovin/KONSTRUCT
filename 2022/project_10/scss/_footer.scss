@@ -1,0 +1,73 @@
+.footer {   
+   background-color: #141A20;
+   padding: 40px 0px;
+
+   p{
+      font-size: 11px;
+      line-height: 19px;
+      letter-spacing: 0.8500000238418579px;
+      color: white;
+   }
+
+   // .footer__flexcont
+   &__flexcont {
+      display: flex;
+      justify-content: space-between;
+      @media( max-width: 880px){
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+   }
+
+   // .footer__company
+   &__company {
+      margin-right: 71px;
+   }
+
+   // .footer__logo
+   &__logo {
+      margin: 20px 0 16px 0;
+   }
+
+   // .footer__links
+   &__links {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+   }
+
+   // .footer__contats
+   &__contats {
+      margin-left: 48px;
+      p{
+         margin: 15px 0;
+      }
+   }
+
+   // .footer__soc-seti
+   &__soc-seti {
+      display: flex;
+      align-items: center;
+   }
+   &__product{
+      background-color: #171819;
+      padding: 22px 0px;
+   }
+   &__2017{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p{
+         font-size: 11px;
+         line-height: 13px;
+         letter-spacing: 0.8461539149284363px;
+         color: white;
+         @media(max-width: 350px){
+            font-size: 9px;
+         }
+      }
+   }
+}
+
+
+
